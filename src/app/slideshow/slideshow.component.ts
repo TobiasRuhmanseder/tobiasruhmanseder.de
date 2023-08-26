@@ -7,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
 
-  images = ['mountain1.jpg', 'mountain2.jpg', 'mountain3.jpg'];
+  images = ['slideshow1.jpg', 'slideshow2.jpg', 'slideshow3.jpg', 'slideshow4.jpg'];
   headlines = [
-    'Bring climbing to the next level',
-    'Born to climb on mountains',
-    'climb high and celebrate yourself'
+    'Bring engineering to the next level',
+    'Born to code',
+    'stop planning, start doing',
+    'graduate of the developer academy'
 
   ];
   currentImage = 0;
